@@ -7,17 +7,17 @@ class DiagramLibraryTest < Minitest::Test
 
   # test_conf_doc_f_ex().
   # @description
-  #  The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, README.md, 
-  #  and .yardopts files exist.
+  #   The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, README.md,
+  #   and .yardopts files exist.
   def test_conf_doc_f_ex()
-    
+
     assert_path_exists('.travis.yml')
     assert_path_exists('CODE_OF_CONDUCT.md')
     assert_path_exists('Gemfile')
     assert_path_exists('LICENSE.txt')
     assert_path_exists('README.md')
     assert_path_exists('.yardopts')
-  
+
   end
 
   # test_version_declared().
@@ -32,12 +32,11 @@ class DiagramLibraryTest < Minitest::Test
   #   Set fixtures.
   def setup()
   end
-  
+
   # teardown().
   # @description
-  #  Cleanup.
+  #   Cleanup.
   def teardown()
   end
   
 end
-
