@@ -2,10 +2,7 @@
 # under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 require_relative "diagram/version"
-require 'diagram_int'
-require 'diagram_impl'
-require 'node'
-require 'linked_list'
+require 'diagram_comp'
 
 # DiagramLibrary.
 # @class_description

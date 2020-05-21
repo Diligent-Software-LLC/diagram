@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    diagram (0.1.0)
+    diagram (0.2.0)
       diagram_comp (~> 0)
       diagram_factory_comp (~> 0)
       linked_list_library (~> 0)
