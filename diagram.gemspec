@@ -43,9 +43,9 @@ appreciated.}
   spec.add_development_dependency 'simplecov', '~> 0'
 
   # Gem specific runtime dependencies.
-  spec.add_runtime_dependency 'diagram_int', '~> 0'
-  spec.add_runtime_dependency 'diagram_impl', '~> 0'
-  spec.add_runtime_dependency 'node', '~> 4'
+  spec.add_runtime_dependency 'diagram_comp', '~> 0'
+  spec.add_runtime_dependency 'node_diagram', '~> 1'
+  spec.add_runtime_dependency 'diagram_factory_comp', '~> 0'
   spec.add_runtime_dependency 'linked_list_library', '~> 0'
 
 end

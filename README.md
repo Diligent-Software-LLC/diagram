@@ -4,8 +4,8 @@ A Diagram library. Organizes the Diagram components.
 
 ## Installation
 
-- Refer the Diagram Library's 
-[Packages](https://docs.diligentsoftware.org/diagram-1/packages).
+- Refer Library's 
+[Packages](https://docs.diligentsoftware.org/diagram-1/packages#library).
 
 ## Documentation
 
@@ -22,12 +22,15 @@ donations are available at $1, $2, $4, $8, and $16. Greatly appreciated.
 
 ### Report Bugs
 
-- Refer the [Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/diagram/issues/1).
+- Refer the 
+[Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/diagram/issues/1).
 
 ### Fix Bugs
 
-- Refer the [Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/diagram/issues/2).
+- Refer the 
+[Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/diagram/issues/2).
 
 ### Improve Functionality
 
-- Refer the [Improvements Procedure](https://github.com/Diligent-Software-LLC/diagram/issues/3).
+- Refer the 
+[Improvements Procedure](https://github.com/Diligent-Software-LLC/diagram/issues/3).
