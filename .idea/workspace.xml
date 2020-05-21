@@ -35,9 +35,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39e0a5a7-bc6b-45c4-a6f5-9fef41e549f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/diagram.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/diagram.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/diagram_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/diagram_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +43,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="306" />
+    <option name="myElementSize" value="359" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -140,7 +138,7 @@
       <workItem from="1588276833981" duration="1585000" />
       <workItem from="1589905714432" duration="192000" />
       <workItem from="1589913545479" duration="1217000" />
-      <workItem from="1590090450768" duration="1464000" />
+      <workItem from="1590090450768" duration="2151000" />
     </task>
     <task id="LOCAL-00001" summary="Added version.rb. Added Gem Specification file. Added README.md.">
       <created>1588276504291</created>
@@ -170,10 +168,17 @@
       <option name="project" value="LOCAL" />
       <updated>1590091192998</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Development Complete&#10;&#10;'require'd diagram_comp. Deleted diagram_int, diagram_impl, node, and linked_list 'require'ments. Added test coverage.">
+      <created>1590092031927</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590092031927</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Diagram Subsystem:{ No Subsystem } Component: Library Sprints: 2 State: {Development}" />
+        <option name="defaultSearch" value="project: Diagram Subsystem:{ No Subsystem } Component: Library Sprints: 2 State: {Prepare Deployment}" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -199,17 +204,18 @@
     <MESSAGE value="Development Complete&#10;&#10;'require'd diagram_int, diagram_impl, 'node', and 'linked_list'. Formatted diagram_test.rb's formatting. Fixed test_helper.rb's 'require' diagram statement." />
     <MESSAGE value="Prepare Deployment&#10;&#10;Deleted Travis CI deployment settings. Updated Changelog.md." />
     <MESSAGE value="Setup Complete&#10;&#10;Bumped Minor Version. Added diagram_comp, node_diagram, and diagram_factory_comp runtime dependencies. Deleted diagram_int, diagram_impl, and node runtime dependencies. Fixed README.md's Installation link." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Bumped Minor Version. Added diagram_comp, node_diagram, and diagram_factory_comp runtime dependencies. Deleted diagram_int, diagram_impl, and node runtime dependencies. Fixed README.md's Installation link." />
+    <MESSAGE value="Development Complete&#10;&#10;'require'd diagram_comp. Deleted diagram_int, diagram_impl, node, and linked_list 'require'ments. Added test coverage." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;'require'd diagram_comp. Deleted diagram_int, diagram_impl, node, and linked_list 'require'ments. Added test coverage." />
   </component>
   <component name="WindowStateProjectService">
     <state x="438" y="175" key="#Servers" timestamp="1588272562369">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="438" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1588272562369" />
-    <state x="63" y="45" width="1541" height="905" key="CommitChangelistDialog2" timestamp="1590091192660">
+    <state x="63" y="45" width="1541" height="905" key="CommitChangelistDialog2" timestamp="1590092031632">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="63" y="45" width="1541" height="905" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590091192660" />
+    <state x="63" y="45" width="1541" height="905" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1590092031632" />
     <state width="1545" height="270" key="GridCell.Tab.0.bottom" timestamp="1590091746429">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -238,10 +244,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="503" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1588278481269" />
-    <state x="503" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590091854748">
+    <state x="503" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1590092224185">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="503" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590091854748" />
+    <state x="503" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1590092224185" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/diagram@DiagramLibraryTest.rcov" NAME="DiagramLibraryTest Coverage Results" MODIFIED="1590091742612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="diagram" />
